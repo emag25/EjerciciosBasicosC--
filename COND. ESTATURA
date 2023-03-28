@@ -1,0 +1,11 @@
+Algoritmo Seleccion_Modelos
+	
+	Definir est Como Real
+	Escribir "  Ingrese su estatura:";
+	Leer est;
+	
+	Si est>=1.65 Entonces
+		Escribir "  HA SIDO SELECCIONADA";
+	FinSi
+	
+FinAlgoritmo 

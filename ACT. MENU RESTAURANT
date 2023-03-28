@@ -1,0 +1,45 @@
+Algoritmo MENU_RESTAURANT
+	definir op, cant como entero
+	definir pre, tp como real
+	
+	Escribir "  -- MENU DE RESTAURANT --";
+	Escribir "  INGRESE UN NUMERO (1 - 4)";
+	leer op;
+	
+Segun op Hacer
+	1:
+		Escribir " ** ARROZ CON MENESTRA Y CHULETA **";
+		pre = 4.5;
+		Escribir "  PRECIO: ", pre;
+		Escribir "  CANTIDAD";
+		Leer cant;      
+		tp = pre * cant;
+		Escribir "  TOTAL A PAGAR: ",tp;
+	2:
+		Escribir " ** ARROZ CON MENESTRA Y POLLO ASADO **";
+		pre = 3.5;
+		Escribir "  PRECIO: ", pre;
+		Escribir "  CANTIDAD";
+		Leer cant;      
+		tp = pre * cant;
+		Escribir "  TOTAL A PAGAR: ",tp;
+	3:
+		Escribir " ** ARROZ CON POLLO FRITO **";
+		pre = 3;
+		Escribir "  PRECIO: ", pre;
+		Escribir "  CANTIDAD";
+		Leer cant;      
+		tp = pre * cant;
+		Escribir "  TOTAL A PAGAR: ",tp;
+	4:
+		Escribir " ** ARROZ CON MENESTRA Y CARNE **";
+		pre = 2.5;
+		Escribir "  PRECIO: ", pre;
+		Escribir "  CANTIDAD";
+		Leer cant;      
+		tp = pre * cant;
+		Escribir "  TOTAL A PAGAR: ",tp;	
+	De Otro Modo:
+		Escribir "VALOR ERRONEO, DEBE INGRESAR UN NUMERO DEL 1 AL 4";
+FinSegun
+FinAlgoritmo

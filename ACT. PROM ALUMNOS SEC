@@ -1,0 +1,34 @@
+Algoritmo PROMEDIO_3ALUMNOS_SEC
+	definir a1,a2,a3,pa,b1,b2,b3,pb,c1,c2,c3,pc,pt Como Real
+	
+	Escribir "  ESTUDIANTE 1";
+	Escribir "  NOTA 1:";
+	leer a1;
+	Escribir "  NOTA 2:";
+	leer a2;
+	Escribir "  NOTA 3:";
+	leer a3;
+	pa = (a1+a2+a3)/3;
+	Escribir "  PROMEDIO DE SUS NOTAS: ",pa;
+	Escribir "  ESTUDIANTE 2";
+	Escribir "  NOTA 1:";
+	leer b1;
+	Escribir "  NOTA 2:";
+	leer b2;
+	Escribir "  NOTA 3:";
+	leer b3;
+	pb = (b1+b2+b3)/3;
+	Escribir "  PROMEDIO DE SUS NOTAS: ",pb;
+	Escribir "  ESTUDIANTE 3";
+	Escribir "  NOTA 1:";
+	leer c1;
+	Escribir "  NOTA 2:";
+	leer c2;
+	Escribir "  NOTA 3:";
+	leer c3;
+	pc = (c1+c2+c3)/3;
+	Escribir "  PROMEDIO DE SUS NOTAS: ",pc;
+	
+	pt = (pa+pb+pc)/3;
+	Escribir "  ** PROMEDIO DE LOS 3 ALUMNOS: ",pt;
+FinAlgoritmo

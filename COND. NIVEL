@@ -1,0 +1,11 @@
+Algoritmo Apto_tutor
+	
+	Definir niv Como Entero
+	Escribir "  Ingrese su nivel de ingles:";
+	Leer niv;
+	
+	Si niv>=4 Entonces
+		Escribir "  USTED ES APTO";
+	FinSi
+	
+FinAlgoritmo

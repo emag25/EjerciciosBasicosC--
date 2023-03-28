@@ -1,0 +1,14 @@
+Algoritmo Consumo_Electrico
+	
+	Definir con, val, tp Como Real
+	
+	Escribir "  CONSUMO EN VATIOS:";
+	Leer con;
+	Escribir "  VALOR POR VATIOS:";
+	Leer val;
+	
+	tp = (con * val);
+	
+	Escribir "  TOTAL A PAGAR: ", tp;
+	
+FinAlgoritmo 

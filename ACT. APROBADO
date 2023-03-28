@@ -1,0 +1,12 @@
+Algoritmo Aprobacion_Examen
+	
+	Definir c Como Real
+	
+	Escribir "  INGRESE SU NOTA:";
+	Leer c;
+	
+	Si (c >= 7) Entonces
+		Escribir "  APROBADO";
+	FinSi
+	
+FinAlgoritmo

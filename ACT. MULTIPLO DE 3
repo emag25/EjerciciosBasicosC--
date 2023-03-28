@@ -1,0 +1,14 @@
+Algoritmo Multiplo_de3
+	
+	Definir n, r Como Entero
+	
+	Escribir "  INGRESE UN NUMERO:";
+	Leer n;
+	
+	r = (n % 3);
+	
+	Si r = 0 && n <> 0 entonces
+		Escribir "  ES UN NUMERO DIVISIBLE PARA 3";
+	FinSi
+	
+FinAlgoritmo

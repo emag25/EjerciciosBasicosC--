@@ -1,0 +1,21 @@
+Algoritmo Pago_DePatri
+	
+	Definir pre, desc, vp, tp como real
+	Definir cant como entero
+	
+	Escribir "Ingrese el precio";
+	Leer pre;
+	Escribir "Ingrese la cantidad";
+	Leer cant;
+	
+	vp=(pre*cant);
+	Escribir "El valor a pagar es: ", vp;
+	
+	Si vp>=50 Entonces
+		desc=(vp*0.4);
+		tp=(vp-desc);
+		Escribir "Descuento: ",desc;
+		Escribir "TOTAL A PAGAR: ",tp;
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,17 @@
+Algoritmo Boleto_cine
+	
+	Definir ed Como Entero
+	Definir vb, bol Como Real
+	
+	Escribir "Ingrese su edad:";
+	Leer ed;
+	bol=5.5;
+	Escribir "El valor del boleto es: ",bol;
+	
+	Si ed>=65 Entonces
+	vb=(bol/2);
+	Escribir "FELICIDADES, SU BOLETO SALE A MITAD DE PRECIO";
+	Escribir "TOTAL A PAGAR: ",vb;
+	FinSi
+
+FinAlgoritmo 

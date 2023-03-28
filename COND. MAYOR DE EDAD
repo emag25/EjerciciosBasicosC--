@@ -1,0 +1,11 @@
+Algoritmo Ingreso_policia
+	
+	Definir ed Como Entero
+	Escribir "Ingrese su edad: ";
+	Leer ed;
+	
+	Si ed>=18 Entonces
+		Escribir "ACEPTADO";
+	FinSi
+	
+FinAlgoritmo

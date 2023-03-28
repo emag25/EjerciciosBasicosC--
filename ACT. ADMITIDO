@@ -1,0 +1,14 @@
+Algoritmo Admision_empleo
+	
+	Definir ed como entero
+	
+	Escribir "  EDAD:";
+	Leer ed;
+	
+	Si ed>=25 Y ed<=35 Entonces
+		Escribir "  ADMITIDO";
+	SiNo
+		Escribir "NO ADMITIDO";
+	FinSi
+	
+FinAlgoritmo 
